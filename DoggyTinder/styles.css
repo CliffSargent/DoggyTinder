@@ -1,0 +1,117 @@
+html {
+    background-color: lightblue;
+    font-family: 'Lato', sans-serif;
+}
+
+.top_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.dog__profile__photo {
+    width: 50%;
+    height: 50%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+a {
+   font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+
+.dog_left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dog_photo_container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+header {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+
+.dog_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.loc_rate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.date_photo {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 70%;
+}
+
+.date_photo_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bones {
+    width: 50%;
+    padding-bottom: 20px; 
+
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+
+@media only screen and (min-width: 480px){
+
+
+    .top_header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        flex-direction: row;
+
+    }
+
+    .navlink {
+        padding-right: 10px;
+
+    }
+
+    .dog_left {
+        flex-direction: column;
+        
+    }
+   
+    .dog_photo_container {
+       
+    }
+
+
+    
+}
